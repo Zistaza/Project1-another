@@ -1,7 +1,8 @@
 import streamlit as st
 
-st.set_page_config(page_title="Unstoppable Mindset", page_icon="st.set_page_config(page_title="Growth Mindset Project", page_icon="🧠")
-")
+# Corrected page config
+st.set_page_config(page_title="Unstoppable Mindset", page_icon="🔥")
+
 st.title("🔥 Unstoppable Mindset: Unlock Your Full Potential 🚀")
 
 st.header("💡 Welcome to Your Journey of Growth!")
