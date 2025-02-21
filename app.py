@@ -1,43 +1,44 @@
 import streamlit as st
 
-st.set_page_config(page_title="Growth Mindset Project", page_icon="🧠")
-st.title("Growth Mindset Challenge: Web App with Streamlit")
+st.set_page_config(page_title="Unstoppable Mindset", page_icon="st.set_page_config(page_title="Growth Mindset Project", page_icon="🧠")
+")
+st.title("🔥 Unstoppable Mindset: Unlock Your Full Potential 🚀")
 
-st.header("Welcome to Your Growth Journey!")
-st.write("Embrace challenges, learn from mistakes, and unlock your full potential. This AI-powered app helps you build a growth mindset with reflection, challenges, and achievements!")
+st.header("💡 Welcome to Your Journey of Growth!")
+st.write("Every challenge you face is a stepping stone toward greatness. This AI-powered app empowers you to embrace struggles, reflect on progress, and celebrate victories. 🌟")
 
-# Quote section
-st.header("Today's Growth Mindset Quote")
-st.write("_Success is not final, failure is not fatal: it is the courage to continue that counts._ - Winston Churchill")
+# Powerful Quote Section
+st.header("📢 Today's Power Quote")
+st.write("💭 _Doubt kills more dreams than failure ever will._ – Suzy Kassem")
 
 # User Challenge Input
-st.header("What's Your Challenge Today?")
-user_input = st.text_input("Describe a challenge you're facing:")
+st.header("🛑 What’s Holding You Back Today?")
+user_input = st.text_input("💭 Describe a challenge you're currently facing:")
 
 if user_input:
-    st.success(f"You are facing: {user_input}. Keep pushing forward towards your goal!")
+    st.success(f"✅ You're confronting: **{user_input}**. Remember, challenges shape champions—keep pushing forward! 💪🔥")
 else:
-    st.warning("Tell us about your challenge to get started!")
+    st.warning("⚡ Growth starts with awareness. Share your challenge and take the first step! 🏆")
 
 # Reflection Section
-st.header("Reflect on Your Learning")
-reflection = st.text_area("Write your reflections here:")
+st.header("🔄 Turn Struggles into Strength")
+reflection = st.text_area("📝 What have you learned from your experiences?")
 
 if reflection:
-    st.success(f"Great Insight! Your reflection: {reflection}")
+    st.success(f"💡 Powerful insight! Your reflection: **{reflection}** 🎯 Keep learning and evolving!")
 else:
-    st.info("Reflecting on past experiences helps you grow! Share your thoughts.")
+    st.info("🔍 Self-reflection fuels progress. Write down your thoughts and own your growth. 🚀")
 
 # Achievements Section
-st.header("Celebrate Your Wins!")
-achievement = st.text_input("Share something you've recently accomplished:")
+st.header("🏆 Claim Your Victory!")
+achievement = st.text_input("🎉 Share a recent success, big or small:")
 
 if achievement:
-    st.success(f"Amazing! You achieved: {achievement}")
+    st.success(f"🔥 Incredible! You accomplished: **{achievement}** 🎯 Every win counts!")
 else:
-    st.info("Big or small, every achievement counts! Share one now!")
+    st.info("🌟 Success is a habit—celebrate your progress, no matter how small! 🚀")
 
-# Footer
+# Footer with Encouragement
 st.write("---")
-st.write("Keep believing in yourself. Growth is a journey, not a destination! ")
-st.write("**Created By Zeenat Yameen**")
+st.write("💪 **Your journey to greatness begins now. Keep moving forward!** 🚀🔥")
+st.write("✨ **Created by Zeenat Yameen** ✨")
